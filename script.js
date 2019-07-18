@@ -3,18 +3,18 @@
 //#1 
 function isNumberInRange(number) {
     if (number > 0 && number < 10) {
-        return console.log('true');
+        return true;
     }
-    return console.log('false');
+    return false;
 }
 isNumberInRange(11);
 
 //#2
 function isEven(number) {
     if (number % 2 == 0) {
-        return console.log('true');
+        return true;
     }
-    return console.log('false');
+    return false;
 }
 isEven(11);
 
@@ -36,9 +36,9 @@ switch (value) {
 //#4
 function min(a,b) {
     if(a > b) {
-        return console.log(b);
+        return b;
     } 
-    return console.log(a);
+    return a;
 }
 min(5, -1);
 min(3, 5);
